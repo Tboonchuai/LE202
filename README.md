@@ -16,11 +16,13 @@
 ### Run example 1
   ใช้ platformio ในการเขียน program ใน micro controller เพื่อทดสอบโปรแกรมนับที่เพิ่มทีละ 1 วิไปเรื่อย ๆ
 ### Run example 2
-  ใช้ platformio ในการเขียน program ใน micro controller เพื่อส่งสัญญาณ out put ออกไปภายนอก โดยนำ adapter เสียบไปที่ USB to serial โดยที่ adapter ต่อสาย port 0 และ port 1 ต่อกับ LED แล้วนำ micro controller ต่อกับ adapter อีกที  เมื่อ run โปรแกรม จะพบว่า LED กระพริบ
+  ใช้ platformio ในการเขียน program ใน micro controller เพื่อแสกนหา wifi รอบ ๆ
 ### Run example 3
-  ใช้ platformio ในการเขียน program ใน micro controller เพื่อนำ input จากภายนอก โดยให้ port 0 เป็น input และ port 2 เป็น output ถ้า input = 0 ไฟจะติด input = 1 ไฟจะดับ มีการนำเซนเซอร์รับแสงเข้ามาต่อ เมื่อมีแสงสว่าง input = 0 ไฟจะติด ถ้าเอามือบังแสง input = 1 ไฟจะดับ
+  ใช้ platformio ในการเขียน program ใน micro controller เพื่อส่งสัญญาณ out put ออกไปภายนอก โดยนำ adapter เสียบไปที่ USB to serial โดยที่ adapter ต่อสาย port 0 และ port 1 ต่อกับ LED แล้วนำ micro controller ต่อกับ adapter อีกที  เมื่อ run โปรแกรม จะพบว่า LED กระพริบ
 ### Run relay 
   นำ micro controller ที่เขียนโปรแกรมไว้แล้วเพื่อส่งสัญญาณมา control ตัว Relay ให้เปิดปิด
+### Run example 4
+  นำสัญญาณ input จากภายนอกเข้ามมาในโปรแกรม โดยให้ port 0 เป็น input และ port 2 เป็น output เมื่อ input = 0 ไฟจะติด input = 1 ไฟจะดับ มีการนำเซนเซอร์รับแสงเข้ามาต่อ เมื่อมีแสงสว่าง input = 0 ไฟจะติด ถ้าเอามือบังแสง input = 1 ไฟจะดับ
 ### Run example 5
   ใช้ platformio ในการลง program ใน micro controller เพื่อสร้าง web server ผ่าน wifi และทดสอบโดยการใช้ web browser 
 ### Run example 6
