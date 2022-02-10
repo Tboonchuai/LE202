@@ -1,25 +1,37 @@
 # micro controller
 ### Teensy 4.0
+
 ![image](https://user-images.githubusercontent.com/98943425/153432159-56f770e8-0fc4-4052-9361-99790a8dbc4d.png)
+
 ชื่อ: Teensy 4.0
+
 ราคา: 651.35 บาท
+
 Link: https://www.pjrc.com/store/teensy40.html
+
 ความเร็ว: 600 Mhz
+
 หน่วยความจำ: 1024K RAM (512K tightly coupled)
+
 port: 2 usb ports, digital pins, analog pins,PWM pins,digital audio,series ports ฯลฯ
 
 ### NUCLEO-L4R5ZI
 ![image](https://user-images.githubusercontent.com/98943425/153447713-59f0e241-e8ab-453b-8091-75380bd15a2f.png)
+
 ชื่อ: NUCLEO-L4R5ZI
+
 ราคา: 1,017.38 บาท
 Link: https://th.element14.com/stmicroelectronics/nucleo-l4r5zi/dev-board-32bit-arm-cortex-m4/dp/2845537
-ความเร็ว: 120 Mhz
-หน่วยความจำ: 640 Kb
-port: USB with Micro-AB or USB Type-C, Ethernet RJ45, SWD,  ST Zio expansion connector including ARDUINO® Uno V3,  ST morpho expansion connecto ฯลฯ
-###
 
-ชื่อ: SLTB004A
+ความเร็ว: 120 Mhz
+
+หน่วยความจำ: 640 Kb
+
+port: USB with Micro-AB or USB Type-C, Ethernet RJ45, SWD,  ST Zio expansion connector including ARDUINO® Uno V3,  ST morpho expansion connecto ฯลฯ
+
+### SLTB004A
 ![image](https://user-images.githubusercontent.com/98943425/153454444-1f5215bf-e5a1-40f0-a21f-8393025bba41.png)
+ชื่อ: SLTB004A
 ราคา: $19.99
 Link: https://www.silabs.com/development-tools/thunderboard/thunderboard-sense-two-kit
 ความเร็ว:  40 MHz
