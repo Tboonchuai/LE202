@@ -29,7 +29,7 @@ Link: https://th.element14.com/stmicroelectronics/nucleo-l4r5zi/dev-board-32bit-
 
 หน่วยความจำ: 640 Kb
 
-port: USB with Micro-AB or USB Type-C, Ethernet RJ45, SWD,  ST Zio expansion connector including ARDUINO® Uno V3,  ST morpho expansion connecto ฯลฯ
+port: USB with Micro-AB or USB Type-C, Ethernet RJ45, SWD,  ST Zio expansion connector including ARDUINO® Uno V3,  ST morpho expansion connector ฯลฯ
 
 ### SLTB004A
 
