@@ -57,7 +57,7 @@
 
     Link: https://www.arduitronics.com/product/2850/sipeed-maixduino-for-risc-v-ai-iot
 
-    ความเร็ว: 	2400Mhz - 2483.5Mhz
+    ความเร็ว: 2400Mhz - 2483.5Mhz
 
     port: USE type-c, Bluetooth 4.2, 24P Camera, FPC connector, ฯลฯ
 
