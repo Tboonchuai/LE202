@@ -1,4 +1,4 @@
-## จะทำการติดตั้ง platformIO ผ่าน Visual Studio code
+# จะทำการติดตั้ง platformIO ผ่าน Visual Studio code
 
 ### 1.ทำการโหลดโปรแกรม Visual Studio code ผ่าน web browser
 
