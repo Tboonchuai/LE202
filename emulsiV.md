@@ -52,6 +52,8 @@
  
 6. addi x1, x1, 1
 
+        add immediate
+        
         เอา 1 บวกกับ x1 แล้วนำไปใส่ใน x1
       ![6](https://user-images.githubusercontent.com/98943425/160080965-601b2a3a-4779-4023-8ebc-77fcc8e059cb.png)
 
@@ -91,7 +93,9 @@
 
 ---
 11. addi x1, x1, 1
-
+        
+        add immediate
+        
         เอา 1 บวกกับ x1 แล้วนำไปใส่ใน x1
        ![11](https://user-images.githubusercontent.com/98943425/160082616-71c520cb-792e-4b84-98eb-85497706a82d.png) 
 
