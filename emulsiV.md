@@ -102,11 +102,26 @@
         
         กระโดดไป -16
        ![12](https://user-images.githubusercontent.com/98943425/160083007-525ba66c-a798-4f4b-a938-74deee860c59.png)
+---
+13. lbu x3, 0(x1)
+
+        load byte unsigned
+        
+        นำข้อมูลจาก หน่วยความจำ x1 แล้วไปอ่านมาค่า 1 byte มาใส่ใน x3
+       ![ๅ-](https://user-images.githubusercontent.com/98943425/160083579-9072045e-e80d-4fd8-b3b2-cd85df8ca950.png)
+---
+14. beq x3, x0, +16
+ 
+        branch on equal
+        
+        ถ้า x3 = x0 ให้ กระโดดไป +16 
+       ![14](https://user-images.githubusercontent.com/98943425/160083928-80191f07-8afd-41c0-ab15-c8bae1d741d1.png)
 
 ---
-x. jal x0, 0
+15. jal x0, 0
         
         กระโดดอยู่กับที่
+       ![15](https://user-images.githubusercontent.com/98943425/160084148-80a72439-d49b-405f-baba-efff82d84849.png)
 
 
 
