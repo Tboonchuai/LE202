@@ -1,50 +1,71 @@
 # เขียนโปรแกรม แสดงตัวอักษร (ตัวย่อ ชื่อ สกุล)
-
+---
 ### อธิบายคำสั่ง
 
- - addi x1, x0, 32
+ 1. addi x1, x0, 32
   
         add immediate
         
         เอาเลข 32 ฐาน 10 ไปบวกกับ X0(ซึ่งมีค่าเป็น 0) แล้วนำผลลัพธ์ไปแทนใน x1  
+        
+       ![1](https://user-images.githubusercontent.com/98943425/160077986-cde10fa3-9bfc-40eb-936f-50428347028f.png)
 
- - lui x2, 0xc0000000
+
+---
+
+ 2. lui x2, 0xc0000000
  
         load upper immediate 
         
         นำค่าที่อยู่ทางขวา 1 word ไปใส่ใน x2 แต่ใส่แค่ 20 bit แรกก็คือ(c0000000)
 
- - lbu x3, 0(x1)
+       ![2](https://user-images.githubusercontent.com/98943425/160079575-30997a20-b1fa-4631-8f9d-dfaf3ed094cd.png)
+
+---
+ 3. lbu x3, 0(x1)
 
         load byte unsigned
         
         นำข้อมูลจาก หน่วยความจำ x1 แล้วไปอ่านมาค่า 1 byte มาใส่ใน x3
         
- - beq x3, x0, +16
+       ![3](https://user-images.githubusercontent.com/98943425/160078952-664f81e0-704c-4a81-a1b2-7d346c33116b.png)
+---
+        
+ 4. beq x3, x0, +16
  
         branch on equal
         
         ถ้า x3 = x0 ให้ กระโดดไป +16 
-        
- - sb x3, 0(x2)
+       
+       ![4](https://user-images.githubusercontent.com/98943425/160079336-838d3d74-4cf9-4e28-9d2b-6c82244b327b.png)
+
+---
+
+ 5. sb x3, 0(x2)
         
         store byte
         
-        นำข้อมูลใน x3 ไปเก็บไว้ใน x2
-        
- - addi x1, xa, 1
+        นำข้อมูลใน x3 ไปเก็บไว้ใน address x2
+       ![5](https://user-images.githubusercontent.com/98943425/160080101-424ab0d5-0599-4213-ad4b-e99b69c0769d.png)
+
+---
+ 
+ 6. addi x1, xa, 1
 
         เอา 1 บวกกับ x1 แล้วนำไปใส่ใน x1
+---
 
- - jal x0, -16
+ 7. jal x0, -16
 
         jump and link
         
         กระโดดไป -16
 
- - jal x0, 0
+ 8. jal x0, 0
         
         กระโดดอยู่กับที่
 
-### การแสดงโปรแกรม
+
+
+
  
