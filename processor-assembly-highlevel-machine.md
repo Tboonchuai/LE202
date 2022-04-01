@@ -1,5 +1,6 @@
-1.
-Processor: RICS-V rv32gc clang 9.0.0
+# 1.RICS-V
+Processor: RICS-V
+
 Hight level language: C
     
     int square(int num) 
@@ -26,9 +27,10 @@ machine language:
 
 
 ---
-2.
+# 2.x86
 
-Processor:
+Processor: x86
+
 Hight level language: C++
 
     int square(int num) {
