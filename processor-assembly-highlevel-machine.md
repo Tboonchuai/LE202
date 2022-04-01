@@ -1,5 +1,5 @@
-# 1.RICS-V
-Processor: RICS-V
+# 1.RISC-V
+Processor: RISC-V
 
 Hight level language: C
     
@@ -7,7 +7,7 @@ Hight level language: C
     {
     return num * num;
     }
-Assembly: RICS-V rv32gc clang 9.0.0
+Assembly: RISC-V rv32gc clang 9.0.0
       
     square:                                 # @square
         addi    sp, sp, -16
