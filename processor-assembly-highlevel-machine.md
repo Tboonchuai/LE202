@@ -60,7 +60,7 @@ machine language:
 ---
 # 2.x86
 
-Processor: x86
+Processor: x86-64 gcc (contract labels)
 
 Hight level language: C++
 
