@@ -25,7 +25,7 @@ Hight level language เป็นภาษาที่ใช้ง่ายใ�
 ---
 
 # 1.RISC-V
-Processor: RISC-V rv64gc clang 14.0.0
+Processor: RISC-V rv64gc 
 
 Hight level language: C
     
@@ -60,7 +60,7 @@ machine language:
 ---
 # 2.x86
 
-Processor: x86-64 gcc (contract labels)
+Processor: x86
 
 Hight level language: C++
 
